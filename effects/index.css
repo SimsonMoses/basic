@@ -1,0 +1,20 @@
+.heading{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+p{
+    flex-wrap: wrap;
+    padding:auto;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    size: 4px;
+}
+
+table, td, th{
+    border: 1px rgb(46, 46, 46) solid;
+}
+
+.text-transform > :nth-child(3){
+    text-transform: uppercase;
+}

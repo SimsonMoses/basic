@@ -1,0 +1,26 @@
+.selection>li::selection{
+    color:aliceblue;
+    background: black;
+    line-height: 2;
+}
+.selection>li::marker{
+    color: blueviolet;
+    content: "-> ";
+    font-size:1rem;
+}
+
+.beforeAfter>p::before{
+    color:rgb(251, 145, 121);
+    content:"Tips ";
+    padding-left: 8px;
+    padding-right: 4px;
+    border-radius: 10%;
+}
+
+.beforeAfter>p::after{
+    color:rgb(83, 240, 52);
+    content:"!! ";
+    padding-left: 8px;
+    padding-right: 4px;
+    border-radius: 10%;
+}
